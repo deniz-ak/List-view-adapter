@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     private ListView listView ;
     private ArrayList<Book> bookList ;
     private List_View_Adapter listViewAdapter ;
-    private Book book,book1 ;
+    private Book book,book1,book2;
 
 
     @Override
@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         book = new Book ("Empati","Adam Fawor");
         book1 = new Book ("Aklında Bir Sayı Tut","Adam Fawor");
+        book2 = new Book ("Olasılıksız","Adam Fawor");
 
         bookList.add(book);
         bookList.add(book1);
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         bookList.add(book1);
         bookList.add(book);
         bookList.add(book1);
+        bookList.add(book2);
 
 
 
